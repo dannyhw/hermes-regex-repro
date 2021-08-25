@@ -8,3 +8,5 @@ const BABEL_CODE_FRAME_ERROR_FORMAT = /^(?:TransformError )?(?:.*):? (?:.*?)(\/.
 
 const babelCodeFrameError = message.match(BABEL_CODE_FRAME_ERROR_FORMAT);
 ```
+
+A smaller message will not throw the error and also disabling hermes solves the issue
